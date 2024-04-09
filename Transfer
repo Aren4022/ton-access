@@ -1,0 +1,21 @@
+// copy paste the following snippet into your dapp client code
+
+// to initialize your favorite TON API library and make blockchain queries
+
+
+
+import { getHttpV4Endpoint } from "@orbs-network/ton-access";
+
+import { TonClient4 } from "ton";UQB1eEFF_Std9m9Dxzsvv5FO9d4smvxvHg14xf5_bOI7CEtu?tab=transactions
+
+
+
+// get the decentralized RPC endpoint
+
+const endpoint = await getHttpV4Endpoint();
+
+
+
+// initialize ton library
+
+const client4 = new TonClient4({ endpoint });UQDzONwvehCi8u6e-RLLnAbP0l9ls7NwKM_OWaqRB07YHUjk
